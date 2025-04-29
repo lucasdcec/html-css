@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: #4fadff96;
+    
+}
+
+header {
+    padding: 36px;
+    margin: -8px;
+    background-image: linear-gradient(to bottom,  #edff84d9, #848e49d9,  rgba(0, 0, 0, 0.337));
+    margin: auto;
+}
+
+#titulo {
+   
+}
+
+nav  {
+    margin-right: 30px;
+    background-color: rgba(248, 236, 236, 0.852);
+    padding: 11px;
+    margin: 16px;
+}
+
+nav > a {
+    margin-right: 80px;
+}

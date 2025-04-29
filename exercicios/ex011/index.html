@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptáveis</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Altere a proporção do navegador e aprecie a imagem se adaptando</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="Imagem Flexível">
+
+    </picture>
+    <h1>Reproduzingo aúdio</h1>
+    <p>Aprecie o aúdio em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Perfume  Acústico Inside  Fraternidade São João Paulo II (1).mp3" type="audio/mpeg">
+        <source src="midia/Perfume  Acústico Inside  Fraternidade São João Paulo II (1).ogg" type="audio/ogg">
+        <source src="midia/Perfume  Acústico Inside  Fraternidade São João Paulo II (1).wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir aúdio. <a href="midia/Perfume  Acústico Inside  Fraternidade São João Paulo II (1).mp3">Clique aqui para baixar o seu arquivo MP3</a>.</p>
+    </audio>
+    
+</body>
+</html>
